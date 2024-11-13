@@ -11,7 +11,7 @@
       "description_zh": "使用从 0 到 100 的值道具来设置仪表条的值。",
       "required": true
     },
-    ":size": {
+    "size": {
       "type": "md / 2xs / xs / sm / lg / xl / 2xl",
       "default": "md",
       "value": [

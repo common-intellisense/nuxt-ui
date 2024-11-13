@@ -12,7 +12,7 @@
     },
     "side": {
       "type": "string",
-      "default": "\"right\"",
+      "default": "right",
       "value": [
         "left",
         "right"

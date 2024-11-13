@@ -11,7 +11,7 @@
     "size": {
       "description": "",
       "description_zh": "",
-      "default": "null\"md\"\"2xs\"\"xs\"\"sm\"\"lg\"\"xl\"",
+      "default": "nullmd2xsxssmlgxl",
       "value": "",
       "type": "InputSize"
     },
@@ -53,7 +53,7 @@
     "modelValue": {
       "description": "",
       "description_zh": "",
-      "default": "\"\"",
+      "default": "",
       "value": "",
       "type": "string | number | Record<string, any> | unknown[]"
     },
@@ -74,7 +74,7 @@
     "variant": {
       "description": "",
       "description_zh": "",
-      "default": "config.default.variant\"outline\"\"none\"",
+      "default": "config.default.variantoutlinenone",
       "value": "",
       "type": "InputVariant"
     },
@@ -137,7 +137,7 @@
     "optionAttribute": {
       "description": "",
       "description_zh": "",
-      "default": "\"label\"",
+      "default": "label",
       "value": "",
       "type": "string"
     },

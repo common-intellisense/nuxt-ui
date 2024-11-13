@@ -57,7 +57,7 @@
     },
     "closeButton": {
       "type": "Button",
-      "default": "{\"icon\": \"i-heroicons-x-mark-20-solid\",\"color\": \"gray\",\"variant\": \"link\",\"padded\": false}",
+      "default": "{icon: i-heroicons-x-mark-20-solid,color: gray,variant: link,padded: false}",
       "value": "",
       "description": "Use the close-button prop to hide or customize the close button on the Notification.",
       "description_zh": "使用关闭按钮属性隐藏或自定义通知上的关闭按钮。"

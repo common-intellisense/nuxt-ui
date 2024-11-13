@@ -12,7 +12,7 @@
     },
     "placeholder": {
       "type": "string",
-      "default": "\"Search...\"",
+      "default": "Search...",
       "value": "",
       "description": "",
       "description_zh": ""
@@ -41,7 +41,7 @@
     },
     "by": {
       "type": "string",
-      "default": "\"id\"",
+      "default": "id",
       "value": "",
       "description": "",
       "description_zh": ""
@@ -62,21 +62,21 @@
     },
     "emptyState": {
       "type": "{ icon: string; label: string; queryLabel: string; }",
-      "default": "{\"icon\": \"i-heroicons-magnifying-glass-20-solid\", \"label\": \"We couldn't find any items.\", \"queryLabel\": \"We couldn't find any items with that term. Please try again.\"}",
+      "default": "{icon: i-heroicons-magnifying-glass-20-solid, label: We couldn't find any items., queryLabel: We couldn't find any items with that term. Please try again.}",
       "value": "",
       "description": "An empty state will be displayed when there are no results.",
       "description_zh": "当没有结果时，将显示空状态。"
     },
     "groupAttribute": {
       "type": "string",
-      "default": "\"label\"",
+      "default": "label",
       "value": "",
       "description": "",
       "description_zh": ""
     },
     "commandAttribute": {
       "type": "string",
-      "default": "\"label\"",
+      "default": "label",
       "value": "",
       "description": "",
       "description_zh": ""

@@ -69,7 +69,7 @@
     },
     ":v-model": {
       "type": "string | number | Record<string, any> | unknown[]",
-      "default": "\"\"",
+      "default": "",
       "value": "",
       "description": "",
       "description_zh": "",
@@ -116,7 +116,7 @@
     },
     "optionAttribute": {
       "type": "string",
-      "default": "\"label\"",
+      "default": "label",
       "value": "",
       "description": "",
       "description_zh": ""
@@ -158,7 +158,7 @@
     },
     "searchablePlaceholder": {
       "type": "string",
-      "default": "\"Search...\"",
+      "default": "Search...",
       "value": "",
       "description": "",
       "description_zh": ""

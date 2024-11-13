@@ -1,17 +1,158 @@
 {
   "name": "ULink",
-  "methods": [],
-  "events": [],
   "props": {
-    "to": {
-      "type": "string",
-      "default": "",
-      "value": "",
+    "type": {
       "description": "",
       "description_zh": "",
-      "required": true
+      "default": "button",
+      "value": "",
+      "type": "string"
+    },
+    "target": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "_blank / _parent / _self / _top / (string & {})"
+    },
+    "to": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "string | RouteLocationAsRelativeGeneric | RouteLocationAsPathGeneric"
+    },
+    "activeClass": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "string"
+    },
+    "exactActiveClass": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "string"
+    },
+    "ariaCurrentValue": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "time / page / step / location / date / true / false"
+    },
+    "prefetchedClass": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "string"
+    },
+    "as": {
+      "description": "",
+      "description_zh": "",
+      "default": "button",
+      "value": "",
+      "type": "string"
+    },
+    "inactiveClass": {
+      "description": "",
+      "description_zh": "",
+      "default": "undefined",
+      "value": "",
+      "type": "string"
+    },
+    "href": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "string | RouteLocationAsRelativeGeneric | RouteLocationAsPathGeneric"
+    },
+    "rel": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "any"
+    },
+    "replace": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "boolean"
+    },
+    "noRel": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "boolean"
+    },
+    "prefetch": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "boolean"
+    },
+    "noPrefetch": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "boolean"
+    },
+    "external": {
+      "description": "",
+      "description_zh": "",
+      "default": "",
+      "value": "",
+      "type": "boolean"
+    },
+    "disabled": {
+      "description": "",
+      "description_zh": "",
+      "default": "null",
+      "value": "",
+      "type": "boolean"
+    },
+    "active": {
+      "description": "",
+      "description_zh": "",
+      "default": "undefined",
+      "value": "",
+      "type": "boolean"
+    },
+    "exact": {
+      "description": "",
+      "description_zh": "",
+      "default": "false",
+      "value": "",
+      "type": "boolean"
+    },
+    "exactQuery": {
+      "description": "",
+      "description_zh": "",
+      "default": "false",
+      "value": "",
+      "type": "boolean"
+    },
+    "exactHash": {
+      "description": "",
+      "description_zh": "",
+      "default": "false",
+      "value": "",
+      "type": "boolean"
     }
   },
-  "link": "https://ui.nuxt.com/elements/link",
-  "link_zh": "https://ui.nuxt.com/elements/link"
+  "link": "https://ui.nuxt.com/components/link",
+  "link_zh": "https://ui.nuxt.com/components/link",
+  "typeDetail": {},
+  "events": [],
+  "methods": [],
+  "slots": []
 }

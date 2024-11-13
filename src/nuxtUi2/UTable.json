@@ -4,7 +4,7 @@
   "events": [],
   "props": {
     ":sort": {
-      "type": "{ column: string; direction: \"asc\" | \"desc\"; }",
+      "type": "{ column: string; direction: asc | desc; }",
       "default": "{}",
       "value": "",
       "description": "",
@@ -42,20 +42,20 @@
     },
     "loadingState": {
       "type": "{ icon: string; label: string; }",
-      "default": "config{ \"icon\": \"i-heroicons-arrow-path-20-solid\", \"label\": \"Loading...\"}",
+      "default": "config{ icon: i-heroicons-arrow-path-20-solid, label: Loading...}",
       "value": "",
       "description": "",
       "description_zh": ""
     },
     "emptyState": {
       "type": "{ icon: string; label: string; }",
-      "default": "{\"icon\": \"i-heroicons-circle-stack-20-solid\", \"label\": \"No items.\"}",
+      "default": "{icon: i-heroicons-circle-stack-20-solid, label: No items.}",
       "value": "",
       "description": "An empty state will be displayed when there are no results.",
       "description_zh": "当没有结果时，将显示空状态。"
     },
     ":columns": {
-      "type": "{ [key: string]: any; key: string; sortable?: boolean; direction?: \"asc\" | \"desc\"; class?: string; }[]",
+      "type": "{ [key: string]: any; key: string; sortable?: boolean; direction?: asc | desc; class?: string; }[]",
       "default": "null",
       "value": "",
       "description": "",
@@ -64,14 +64,14 @@
     },
     "columnAttribute": {
       "type": "string",
-      "default": "\"label\"",
+      "default": "label",
       "value": "",
       "description": "",
       "description_zh": ""
     },
     "sortButton": {
       "type": "Button",
-      "default": "{\"icon\": \"i-heroicons-arrows-up-down-20-solid\",\"trailing\": true,\"square\": true,\"color\": \"gray\",\"variant\": \"ghost\",\"class\": \"-m-1.5\"}",
+      "default": "{icon: i-heroicons-arrows-up-down-20-solid,trailing: true,square: true,color: gray,variant: ghost,class: -m-1.5}",
       "value": "",
       "description": "",
       "description_zh": ""

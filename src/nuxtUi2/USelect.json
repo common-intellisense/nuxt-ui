@@ -62,7 +62,7 @@
     },
     ":v-model": {
       "type": "string | number | Record<string, any>",
-      "default": "\"\"",
+      "default": "",
       "value": "",
       "description": "Use a v-model to make the Select reactive alongside the options prop to pass an array of strings or objects",
       "description_zh": "使用 v-model 使 Select 与 options 属性一起响应，以传递字符串或对象数组",
@@ -109,14 +109,14 @@
     },
     "optionAttribute": {
       "type": "string",
-      "default": "\"label\"",
+      "default": "label",
       "value": "",
       "description": "",
       "description_zh": ""
     },
     "valueAttribute": {
       "type": "string",
-      "default": "\"value\"",
+      "default": "value",
       "value": "",
       "description": "",
       "description_zh": ""

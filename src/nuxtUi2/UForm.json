@@ -63,7 +63,7 @@
     },
     "validateOn": {
       "type": "FormEventType[]",
-      "default": "[\"blur\", \"input\", \"change\", \"submit\"]",
+      "default": "[blur, input, change, submit]",
       "value": [
         "blur",
         "input",

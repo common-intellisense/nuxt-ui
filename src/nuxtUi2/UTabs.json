@@ -13,7 +13,7 @@
   "props": {
     "orientation": {
       "type": "string",
-      "default": "\"horizontal\"",
+      "default": "horizontal",
       "value": [
         "horizontal",
         "vertical"

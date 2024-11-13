@@ -12,7 +12,7 @@
     },
     "mode": {
       "type": "string",
-      "default": "\"click\"",
+      "default": "click",
       "value": [
         "click",
         "hover"

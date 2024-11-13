@@ -12,7 +12,7 @@
     },
     "as": {
       "type": "string",
-      "default": "\"div\"",
+      "default": "div",
       "value": "",
       "description": "",
       "description_zh": ""

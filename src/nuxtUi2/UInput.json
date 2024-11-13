@@ -33,7 +33,7 @@
     },
     "type": {
       "type": "string",
-      "default": "\"text\"",
+      "default": "text",
       "value": "",
       "description": "Use the type prop to change the input type, the default type is set to text, you can check all the available types at MDN.",
       "description_zh": "使用 type 属性更改输入类型，默认类型设置为文本，可以在 MDN 查看所有可用的类型。"
@@ -69,7 +69,7 @@
     },
     ":v-model": {
       "type": "string | number",
-      "default": "\"\"",
+      "default": "",
       "value": "",
       "description": "Use a v-model to make the Input reactive.",
       "description_zh": "使用 v 模型使输入具有反应性。",

@@ -54,7 +54,7 @@
     },
     ":v-model": {
       "type": "string | number",
-      "default": "\"\"",
+      "default": "",
       "value": "",
       "description": "Use a v-model to make the Textarea reactive.",
       "description_zh": "使用 v 模型使 Textarea 具有反应性。",

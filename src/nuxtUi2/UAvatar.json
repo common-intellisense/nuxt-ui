@@ -77,7 +77,7 @@
     },
     "imgClass": {
       "type": "string",
-      "default": "\"\"",
+      "default": "",
       "value": "",
       "description": "",
       "description_zh": ""
