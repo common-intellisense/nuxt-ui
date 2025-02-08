@@ -8,7 +8,7 @@
       "value": "",
       "type": "any"
     },
-    "items": {
+    ":items": {
       "description": "",
       "description_zh": "",
       "default": "[]",
@@ -80,5 +80,30 @@
       "params": "()"
     }
   ],
-  "slots": []
+  "slots": [
+    {
+      "name": "default",
+      "params": "",
+      "description": "You can put anything inside the default slot, not only images. You will have access to the item and index properties in the slot scope.",
+      "description_zh": "您可以将任何内容放在默认插槽中，不仅仅是图像。您将在插槽范围内访问 item 和 index 属性。"
+    },
+    {
+      "name": "prev",
+      "params": "",
+      "description": "With the arrows prop enabled, use the #prev and #next slots to set the content of the previous and next buttons. You will have access to the disabled property and on-click method in the slot scope.",
+      "description_zh": "启用箭头道具后，使用 #prev 和 #next 插槽设置上一个和下一个按钮的内容。您将在插槽范围内访问 disabled 属性和 on-click 方法。"
+    },
+    {
+      "name": "next",
+      "params": "",
+      "description": "With the arrows prop enabled, use the #prev and #next slots to set the content of the previous and next buttons. You will have access to the disabled property and on-click method in the slot scope.",
+      "description_zh": "启用箭头道具后，使用 #prev 和 #next 插槽设置上一个和下一个按钮的内容。您将在插槽范围内访问 disabled 属性和 on-click 方法。"
+    },
+    {
+      "name": "indicator",
+      "params": "",
+      "description": "With the indicators prop enabled, use the #indicator slot to set the content of the indicators. You will have access to the active, page properties and on-click method in the slot scope.",
+      "description_zh": "启用指示器道具后，使用 #indicator 插槽设置指示器的内容。您将在插槽范围内访问 active、page 属性和 on-click 方法。"
+    }
+  ]
 }

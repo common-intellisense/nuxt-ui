@@ -15,7 +15,9 @@
       "default": "right",
       "value": [
         "left",
-        "right"
+        "right",
+        "bottom",
+        "top"
       ],
       "description": "",
       "description_zh": ""

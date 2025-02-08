@@ -21,5 +21,30 @@
   "typeDetail": {},
   "events": [],
   "methods": [],
-  "slots": []
+  "slots": [
+    {
+      "name": "default",
+      "params": "",
+      "description": "Use the #default slot to customize the link label. You will have access to the link and isActive properties in the slot scope.",
+      "description_zh": "使用 #default 插槽自定义链接标签。您将有权访问槽作用域中的链接和 isActive 属性。"
+    },
+    {
+      "name": "avatar",
+      "params": "",
+      "description": "Use the #avatar slot to customize the link avatar. You will have access to the link and isActive properties in the slot scope.",
+      "description_zh": "使用 #avatar 插槽自定义链接头像。您将有权访问槽作用域中的链接和 isActive 属性。"
+    },
+    {
+      "name": "icon",
+      "params": "",
+      "description": "Use the #icon slot to customize the link icon. You will have access to the link and isActive properties in the slot scope.",
+      "description_zh": "使用 #icon 插槽自定义链接图标。您将有权访问槽作用域中的链接和 isActive 属性。"
+    },
+    {
+      "name": "badge",
+      "params": "",
+      "description": "Use the #badge slot to customize the link badge. You will have access to the link and isActive properties in the slot scope.",
+      "description_zh": "使用 #badge 插槽自定义链接徽章。您将有权访问槽作用域中的链接和 isActive 属性。"
+    }
+  ]
 }

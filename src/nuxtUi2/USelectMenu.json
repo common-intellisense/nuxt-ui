@@ -308,6 +308,12 @@
       "description_zh": "您可以覆盖 #label 插槽并自行处理显示器。"
     },
     {
+      "name": "default",
+      "params": "",
+      "description": "You can also override the #default slot entirely.",
+      "description_zh": "您还可以完全覆盖 #default 插槽。"
+    },
+    {
       "name": "option",
       "params": "",
       "description": "Use the #option slot to customize the option content. You will have access to the option, active and selected properties in the slot scope.",
@@ -324,6 +330,12 @@
       "params": "",
       "description": "Use the #option-create slot to customize the content displayed when the creatable prop is true and there is no options. You will have access to the query property in the slot scope.",
       "description_zh": "使用 #option-create 槽自定义当可创建道具为 true 且没有选项时显示的内容。您将有权访问槽作用域中的查询属性。"
+    },
+    {
+      "name": "empty",
+      "params": "",
+      "description": "Use the #empty slot to customize the content displayed when there is no options.",
+      "description_zh": "使用 #empty 槽自定义没有选项时显示的内容。"
     }
   ],
   "link": "https://ui.nuxt.com/forms/select-menu",

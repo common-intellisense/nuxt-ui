@@ -47,6 +47,18 @@
       "description_zh": "使用 multiple 属性允许同时打开多个元素。"
     }
   },
+  "slots": [
+    {
+      "name": "default",
+      "description": "Use the #default slot to customize the trigger buttons. You will have access to the item, index, open properties and close method in the slot scope.",
+      "description_zh": "使用#default插槽自定义触发按钮。您将有权访问插槽范围内的项目、索引、打开属性和关闭方法。"
+    },
+    {
+      "name": "item",
+      "description": "Use the #item slot to customize the items content or pass a slot property to customize a specific item. You will have access to the item, index, open properties and close method in the slot scope.",
+      "description_zh": "使用#item插槽自定义项目内容或传递一个插槽属性来自定义特定项目。您将有权访问插槽范围内的项目、索引、打开属性和关闭方法。"
+    }
+  ],
   "link": "https://ui.nuxt.com/elements/accordion",
   "link_zh": "https://ui.nuxt.com/elements/accordion"
 }

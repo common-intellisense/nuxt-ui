@@ -112,6 +112,18 @@
       "description_zh": "使用 #<column>-header 槽自定义列的标题单元格。您将有权访问槽作用域中的列、排序和排序属性。"
     },
     {
+      "name": "select-header",
+      "params": "",
+      "description": "This slot allows you to customize the checkbox appearance in the table header for selecting all rows at once while using feature Selectable.",
+      "description_zh": "此插槽允许您在使用 Selectable 功能时自定义表头中的复选框外观，以一次选择所有行。"
+    },
+    {
+      "name": "select-data",
+      "params": "",
+      "description": "This slot allows you to customize the checkbox appearance for each row in the table while using feature Selectable.",
+      "description_zh": "此插槽允许您在使用 Selectable 功能时自定义表中每行的复选框外观。"
+    },
+    {
       "name": "loading-state",
       "params": "",
       "description": "Use the #loading-state slot to customize the loading state.",
@@ -122,6 +134,12 @@
       "params": "",
       "description": "Use the #empty-state slot to customize the empty state.",
       "description_zh": "使用 #empty 状态插槽自定义空状态。"
+    },
+    {
+      "name": "caption",
+      "params": "",
+      "description": "Use the #caption slot to customize the table's caption.",
+      "description_zh": "使用 #caption 插槽自定义表格的标题。"
     }
   ],
   "link": "https://ui.nuxt.com/elements/table",

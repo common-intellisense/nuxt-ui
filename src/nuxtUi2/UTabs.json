@@ -82,6 +82,18 @@
       "params": "",
       "description": "Use the #item slot to customize the items content. You will have access to the item, index and selected properties in the slot scope.",
       "description_zh": "使用 #item 槽自定义项目内容。您将有权访问插槽范围内的项目、索引和所选属性。"
+    },
+    {
+      "name": "icon",
+      "params": "",
+      "description": "Use the #icon slot to customize the icon of the trigger buttons. You will have access to the item, index, selected and disabled in the slot scope.",
+      "description_zh": "使用 #icon 槽自定义触发按钮的图标。您将有权访问插槽范围内的项目、索引、所选和禁用。"
+    },
+    {
+      "name": "default",
+      "params": "",
+      "description": "Use the #default slot to customize the content of the trigger buttons. You will have access to the item, index, selected and disabled in the slot scope.",
+      "description_zh": "使用 #default 槽自定义触发按钮的内容。您将有权访问插槽范围内的项目、索引、所选和禁用。"
     }
   ],
   "link": "https://ui.nuxt.com/elements/tabs",

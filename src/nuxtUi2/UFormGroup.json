@@ -81,6 +81,38 @@
     "UInput",
     "UButton"
   ],
+  "slots": [
+    {
+      "name": "label",
+      "params": "",
+      "description": "Use the #label slot to set the custom content for label.",
+      "description_zh": "使用 #label 插槽设置标签的自定义内容。"
+    },
+    {
+      "name": "description",
+      "params": "",
+      "description": "Use the #description slot to set the custom content for description.",
+      "description_zh": "使用 #description 插槽设置描述的自定义内容。"
+    },
+    {
+      "name": "hint",
+      "params": "",
+      "description": "Use the #hint slot to set the custom content for hint.",
+      "description_zh": "使用 #hint 插槽设置提示的自定义内容。"
+    },
+    {
+      "name": "help",
+      "params": "",
+      "description": "Use the #help slot to set the custom content for help.",
+      "description_zh": "使用 #help 插槽设置帮助的自定义内容。"
+    },
+    {
+      "name": "error",
+      "params": "",
+      "description": "Use the #error slot to set the custom content for error.",
+      "description_zh": "使用 #error 插槽设置错误的自定义内容。"
+    }
+  ],
   "link": "https://ui.nuxt.com/forms/form-group",
   "link_zh": "https://ui.nuxt.com/forms/form-group"
 }

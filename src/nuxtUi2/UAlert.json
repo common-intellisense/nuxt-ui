@@ -74,6 +74,33 @@
       "description_zh": "使用 actions 属性将操作添加到警报中。"
     }
   },
+  "slots": [
+    {
+      "name": "title",
+      "description": "Use the #title and #description slots to customize the Alert.",
+      "description_zh": "使用#trailing插槽设置尾随图标的内容。"
+    },
+    {
+      "name": "description",
+      "description": "Use the #title and #description slots to customize the Alert.",
+      "description_zh": "使用#trailing插槽设置尾随图标的内容。"
+    },
+    {
+      "name": "icon",
+      "description": "Use the #icon slot to customize the displayed icon.",
+      "description_zh": "使用#icon插槽自定义显示的图标。"
+    },
+    {
+      "name": "avatar",
+      "description": "Use the #avatar slot to customize the displayable avatar.",
+      "description_zh": "使用#avatar插槽自定义可显示的头像。"
+    },
+    {
+      "name": "actions",
+      "description": "Use the #actions slot to add custom user interaction elements.",
+      "description_zh": "使用#actions插槽添加自定义用户交互元素。"
+    }
+  ],
   "link": "https://ui.nuxt.com/elements/alert",
   "link_zh": "https://ui.nuxt.com/elements/alert"
 }

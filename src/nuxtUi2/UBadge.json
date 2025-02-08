@@ -50,6 +50,18 @@
       "required": true
     }
   },
+  "slots": [
+    {
+      "name": "leading",
+      "description": "Use the #leading slot to set the content of the leading icon.",
+      "description_zh": "使用#leading插槽设置前导图标的内容。"
+    },
+    {
+      "name": "trailing",
+      "description": "Use the #trailing slot to set the content of the trailing icon.",
+      "description_zh": "使用#trailing插槽设置尾随图标的内容。"
+    }
+  ],
   "link": "https://ui.nuxt.com/elements/badge",
   "link_zh": "https://ui.nuxt.com/elements/badge"
 }

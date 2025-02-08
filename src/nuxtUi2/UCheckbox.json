@@ -102,6 +102,12 @@
       "params": "",
       "description": "Use the #label slot to override the content of the label.",
       "description_zh": "使用 #label 槽覆盖标签的内容。"
+    },
+    {
+      "name": "help",
+      "params": "",
+      "description": "Like the #label slot, use the #help slot to override the content of the help text.",
+      "description_zh": "与 #label 插槽类似，使用 #help 插槽覆盖帮助文本的内容。"
     }
   ],
   "link": "https://ui.nuxt.com/elements/checkbox",

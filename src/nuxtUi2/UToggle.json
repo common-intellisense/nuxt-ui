@@ -10,6 +10,21 @@
       "description": "",
       "description_zh": ""
     },
+    "size": {
+      "type": "string",
+      "default": "md",
+      "value": [
+        "md",
+        "2xs",
+        "xs",
+        "sm",
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "description": "Use the size prop to change the size of the Toggle.",
+      "description_zh": "使用 size 属性更改 Toggle 的大小。"
+    },
     "ui": {
       "type": "any",
       "default": "undefined",
@@ -20,6 +35,13 @@
     "id": {
       "type": "string",
       "default": "null",
+      "value": "",
+      "description": "",
+      "description_zh": ""
+    },
+    "loadingIcon": {
+      "type": "string",
+      "default": "i-heroicons-arrow-path-20-solid",
       "value": "",
       "description": "",
       "description_zh": ""
